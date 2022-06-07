@@ -1,0 +1,47 @@
+.check
+    display: none
+
+.check:checked ~ .App
+    color: #ffffff
+    background: #000000
+    background-attachment: fixed
+    width: 100vw
+    height: 100vh
+
+.button
+    position: fixed
+    top: 2vh
+    right: 3vh
+    padding: 1vh
+    width: 13vh
+    height: 5vh
+    border-radius: 5vh
+    cursor: pointer
+    box-shadow: 0px 0px 5px 1px #000
+    background: #ffffff
+    justify-content: start
+    transition: .5s
+    img
+        width: 4vh
+        cursor: pointer
+
+.check:checked ~ .App .button
+    box-shadow: 0px 0px 5px 1px #ffffff
+    background: #000000
+    justify-content: end
+
+.circle
+    display: flex
+    align-items: center
+    width: 4vh
+    height: 4vh
+    border-radius: 100%
+    background: rgb(253, 253, 253)
+    box-shadow: 0px 0px 5px 3px #636363
+    cursor: pointer
+    transition: .9s
+
+.check:checked ~ .App .circle
+    background: #e69602b2
+    box-shadow: 0px 0px 5px 3px #f35f0a
+
