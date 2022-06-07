@@ -33,8 +33,8 @@ Um exemplo foi na parte do login do insta onde é alterada os valores das cores 
 
 Aqui foi feito o comando para alterar a imagens e cores refentes ao logo e o estilo de cor a ser exibido.
 
-<div style='margin-left:5vh; display-flex;'>
-    <img width='240' style='margin-left:5vh' src='markdown/insta-phone-whit.png' />
+<div style='display:flex; flex'>
+    <img width='240' src='markdown/insta-phone-whit.png' />
     <img width='240' style='margin-left:5vh' src='markdown/insta-black.png' />
 </div>
 
