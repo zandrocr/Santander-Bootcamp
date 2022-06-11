@@ -16,7 +16,7 @@ import Login from './components/Login'
 import ModeDark from './components/ModeDark'
 
 function App() {
-    let [check, setCheck] = useState(false)
+    const [check, setCheck] = useState(false)
 
     const darkMode = () => {
         setCheck(!check)
